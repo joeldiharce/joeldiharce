@@ -5,10 +5,11 @@
 //  6, "I"     -> "IIIIII"
 //  5, "Hello" -> "HelloHelloHelloHelloHello"
 
-// Given
+// Function:
 
 function repeatStr (n, s) {
   return `${s}`.repeat(n);
 }
 
+// Testing function
 console.log(repeatStr(3,'hi'))

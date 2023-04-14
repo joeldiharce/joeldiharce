@@ -5,7 +5,7 @@
 
 // Note: if there is nothing to sum, the sum is default to 0.
 
-// Given: 
+// Function: 
 
 function positiveSum(arr) {
   let positives = [];
@@ -19,11 +19,13 @@ function positiveSum(arr) {
       return prev + curr;},0)
   }
 
+// Testing arrays
 test1 = [1,2,3,4,5]
 test2 = [1,-2,3,4,5]
 test3 = [-1,-2,-3,-4,-5]
 test4 = [-1,2,3,4,-5]
 
+// Testing confirmation
 console.log(positiveSum(test1))
 console.log(positiveSum(test2))
 console.log(positiveSum(test3))

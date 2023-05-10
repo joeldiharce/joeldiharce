@@ -3,7 +3,7 @@
 // 'world'  =>  'dlrow'
 // 'word'   =>  'drow'
 
-// ANSWER:
+// SUBMITTED ANSWER:
 // function solution(str){
 //     return str.split('').reverse().join('')
 // }

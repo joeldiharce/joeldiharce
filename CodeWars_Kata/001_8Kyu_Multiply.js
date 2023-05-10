@@ -1,11 +1,12 @@
 // DESCRIPTION: This code does not execute properly. Try to figure out why.
-
 // function multiply(a, b){
 //     a * b
 // }
 
+// FUNCTION:
 function multiply(a, b){
-    return a * b
+    return a * b            // Nothing was being returned.
 }
 
-multiply(1,2) // only needed for node.js. Is not entered into Kata
+// TESTING CONFIRMATION:
+multiply(1,2) 

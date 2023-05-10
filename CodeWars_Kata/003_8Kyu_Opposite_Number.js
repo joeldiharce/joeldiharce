@@ -1,20 +1,16 @@
 // DESCRIPTION: Very simple, given an integer or a floating-point number, find its opposite.
 
-// Examples:
-
+// EXAMPLES:
 // 1: -1
 // 14: -14
 // -34: 34
 
-// Given:
-// function opposite(number) {
-//     //your code here
-// }
-
+// FUNCTION:
 function opposite(number) {
     return number * -1
 }
 
+// TESTING CONFIRMATION:
 console.log(opposite(1))
 console.log(opposite(0))
 console.log(opposite(4.25))

@@ -14,6 +14,7 @@ const stringToNumber = function(str){
   return parseFloat(str);                 // Converts numerical strings to numbers.
 }
 
+// Testing confirmation:
 stringToNumber("1234");
 stringToNumber("605");
 stringToNumber("1405");

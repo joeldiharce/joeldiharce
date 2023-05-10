@@ -14,7 +14,7 @@
 // Hint: Don't forget to check for bad values like null/undefined
 
 // Function: 
-const sheepTest = [                         // Declare test array.
+const exampleSheepArray = [                         // Declare test array.
   true,  true,  true,  false,
   true,  true,  true,  true ,
   true,  false, true,  false,
@@ -25,8 +25,9 @@ const sheepTest = [                         // Declare test array.
 
 function countSheeps(arrayOfSheep) {
   return arrayOfSheep.filter(
-    chkSheep => chkSheep === true         // Retun filtered array element value is true.
-    ).length;                             // Count length of filtered array.
+    trueSheep => trueSheep === true                 // Retun filtered array element value is true.
+    ).length;                                       // Count length of filtered array.
 }
 
-console.log(countSheeps(sheepTest));
+// Testing confirmation:
+console.log(countSheeps(exampleSheepArray));

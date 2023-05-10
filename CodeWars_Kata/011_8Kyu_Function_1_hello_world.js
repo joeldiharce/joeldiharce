@@ -6,7 +6,7 @@
 
 // Function:
 let greet = () => {
-  return 'hello world!';
+  return 'hello world!';          // Not clever, but simple. I think the simpler the better in a professional setting.
 }
 
 greet();

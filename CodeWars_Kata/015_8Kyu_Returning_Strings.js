@@ -4,5 +4,9 @@
 // [Make sure you type the exact thing written or the program may not execute properly]
 
 // FUNCTION:
+function greet(name){
+  return `Hello, ${name} how are you doing today?`
+}
 
-//change to test ssh key added to identity.
+console.log(greet("Ryan"))
+console.log(greet("Shingles"))

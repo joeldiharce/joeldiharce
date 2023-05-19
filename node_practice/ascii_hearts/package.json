@@ -1,0 +1,15 @@
+{
+  "name": "ascii_hearts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "001_nodejs_sandbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-heart": "^2.0.0"
+  }
+}

@@ -36,8 +36,23 @@ When building the react app. the project is structured using the folders
     - `README.md` file is a markdown file that gives basic information on the project
 
 
-Importing components
-Exporting components
-  Default export
-  named exportj
-Components are small piece of functionality
+## React Components and where they live
+Advantages:
+  - React app is split into self contained components
+
+## Objectives:
+1. Demonstrate the import statement
+2. Create a component file
+3. Import components
+4. Structure a project
+
+As a developer, we may need to reuse components created by ourselves or by others.
+
+Components should be grouped in folders with like files. Components are like modules.
+Importing components - imports components for use.
+Exporting components - used to make components available for other files to import them
+  Default export - exports entire file
+  named export - exports specific parts of the file. 
+Components are single parts or small piece of functionality, while modules are larger than just one componenet, as they can contain multiple components.
+
+## 
